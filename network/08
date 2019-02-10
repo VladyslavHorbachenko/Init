@@ -1,0 +1,5 @@
+# First of all we have to do nslookup slash16.org
+# Take adress and run
+# whois "Address"
+
+#and we see OrgName:        Amazon.com, Inc.

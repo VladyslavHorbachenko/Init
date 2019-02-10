@@ -1,0 +1,4 @@
+kill [4-digit PID]
+
+# to find PID  use a ps command
+# kills the background command’s process

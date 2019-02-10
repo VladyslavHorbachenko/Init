@@ -1,0 +1,9 @@
+cat /etc/resolv.conf
+
+# The /etc/resolv.conf configuration file contains information that allows a computer to 
+# convert alpha-numeric domain names into the numeric IP addresses.
+# The process of converting domain names to IP addresses is called resolvin
+# When using DHCP, dhclient usually rewrites resolv.conf with information received from the DHCP server.
+# This file is not consulted for DNS hostname resolution, address
+# resolution, or the DNS query routing mechanism used by most
+# processes on this system.

@@ -1,0 +1,20 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    02                                                 :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vlahorba <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/02/01 08:38:00 by vlahorba          #+#    #+#              #
+#    Updated: 2019/02/01 18:17:52 by vlahorba         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#!/bin/sh
+(a) ifconfig -L en0 | grep "inet " | cut -d " " -f 6
+(b) ifconfig -L en0 | grep "inet " | cut -d " " -f 2
+
+# Identify the Ethernet interface characteristics
+# 1. display the ethernet interface, located at label 'en0'
+# 2. take the row with 'inet'
+# 3. Extract the second word (IP address) or 6

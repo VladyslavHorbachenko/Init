@@ -1,0 +1,2 @@
+who
+# who command is used to get the list of the usernames who are currently logged in. Output of the who command contains the following columns: user name, tty number, date and time, machine address.
